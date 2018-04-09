@@ -1,0 +1,25 @@
+{
+    "name":"CFWheels Disable Form Default IDs",
+    "version":"0.0.1",
+    "author":"Bryan Welter",
+    "location":"bawelter/cfwheels-disable-form-default-id#v0.0.1",
+    "directory":"/plugins/",
+    "createPackageDirectory":true,
+    "packageDirectory":"DisableFormDefaultID",
+    "homepage":"https://github.com/bawelter/cfwheels-disable-form-default-id",
+    "slug":"cfwheels-disable-form-default-id",
+    "shortDescription":"Disable IDs from being added to form inputs",
+    "description":"Disable IDs from being added to form inputs by prefixing id with an underscore to get _id.",
+    "type":"cfwheels-plugins",
+    "keywords":[
+        "form", "input"
+    ],
+    "private":false,
+    "scripts":{
+        "postVersion":"package set location='bawelter/cfwheels-model-nesting#v`package version`'",
+        "patch-release":"bump --patch",
+        "minor-release":"bump --minor",
+        "major-release":"bump --major",
+        "postPublish":"!git push --follow-tags && publish"
+    }
+}
