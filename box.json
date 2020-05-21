@@ -1,8 +1,8 @@
 {
     "name":"CFWheels Disable Form Default IDs",
-    "version":"0.0.1",
+    "version":"0.0.2",
     "author":"Bryan Welter",
-    "location":"bawelter/cfwheels-disable-form-default-id#v0.0.1",
+    "location":"bawelter/cfwheels-disable-form-default-id#v0.0.2",
     "directory":"/plugins/",
     "createPackageDirectory":true,
     "packageDirectory":"DisableFormDefaultID",
